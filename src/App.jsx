@@ -7,11 +7,13 @@ export default function App() {
   const colors = [
     "red",
     "green",
+    "lime",
     "blue",
     "yellow",
     "purple",
     "orange",
     "pink",
+    "cyan",
     "black",
   ];
   const [color, setColor] = useState("");
