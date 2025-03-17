@@ -1,3 +1,18 @@
-.color_change {
-    
+.button_container {
+  display: flex;
+  justify-content: center;
+
+  & .color_change {
+    padding: 10px 16px;
+    border-radius: 6px;
+    background: red;
+    border: transparent;
+    color: #ffffff;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+
+    &:hover {
+      opacity: 0.6;
+    }
+  }
 }
